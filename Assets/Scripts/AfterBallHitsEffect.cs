@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class AfterBallHitsEffect : MonoBehaviour
-{
-    //-------------------ANIMATION SCRIPT--------------
+{ // test
+    // ANIMATION SCRIPT
 
     public Material roomMaterial;
     public bool canAddForce;
@@ -16,8 +16,9 @@ public class AfterBallHitsEffect : MonoBehaviour
 
     public void OnCollisionEnter(Collision collision)
     {
-        if (SetUpText.instance.gameCanStart) {
-            //adding force to ball on the middle of the room to bounce everytime it gets hit
+        if (SetUpText.instance.gameCanStart)
+        {
+            // Adding force to the ball in the middle of the room to bounce every time it gets hit
             if (collision.gameObject.name == "38_prop_ball")
             {
                 if (canAddForce)
@@ -29,17 +30,12 @@ public class AfterBallHitsEffect : MonoBehaviour
 
             if (collision.gameObject.GetComponent<Animator>())
             {
-
                 collision.gameObject.GetComponent<Animator>().SetBool("colliding", true);
-
             }
             else
             {
                 collision.transform.parent.GetComponent<Animator>().SetBool("colliding", true);
-
             }
         }
-
-
     }
 }

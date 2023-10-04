@@ -1,7 +1,11 @@
 ﻿<Properties StartupConfiguration="{D0D5E8B6-81EA-12DD-41C6-D2ACD24B8B6F}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/VibrationManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Oculus/VR/Scripts/Util/OVRGrabber.cs">
     <Files>
-      <File FileName="Assets/Scripts/VibrationManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/VibrationManager.cs" Line="11" Column="38" />
+      <File FileName="Assets/Scripts/SpawnFinallBalls.cs" />
+      <File FileName="Assets/Scripts/ClockRotation.cs" />
+      <File FileName="Assets/Oculus/VR/Scripts/Util/OVRGrabbable.cs" Line="126" Column="23" />
+      <File FileName="Assets/Oculus/VR/Scripts/Util/OVRGrabber.cs" Line="35" Column="21" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -9,16 +13,23 @@
           <Node name="VRPaint" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Oculus" expanded="True">
+                <Node name="SampleFramework" expanded="True">
+                  <Node name="Core" expanded="True">
+                    <Node name="DistanceGrab" expanded="True">
+                      <Node name="Scripts" expanded="True" />
+                    </Node>
+                  </Node>
+                </Node>
                 <Node name="VR" expanded="True">
                   <Node name="Scripts" expanded="True">
-                    <Node name="Util" expanded="True" />
+                    <Node name="Util" expanded="True">
+                      <Node name="OVRGrabber.cs" selected="True" />
+                    </Node>
                   </Node>
                 </Node>
               </Node>
               <Node name="QuickOutline" expanded="True" />
-              <Node name="Scripts" expanded="True">
-                <Node name="VibrationManager.cs" selected="True" />
-              </Node>
+              <Node name="Scripts" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -27,7 +38,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="ffba709f-45f7-4fae-ae94-bd92ecc07ae0" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="824a6968-7eb4-49e1-b984-e9bbc0370974" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

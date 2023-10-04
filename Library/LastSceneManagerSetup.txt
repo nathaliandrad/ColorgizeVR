@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/VR_Paint_Nathalia.unity
+- path: Assets/Scenes/CURRENT_BACKP_SCENE.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
